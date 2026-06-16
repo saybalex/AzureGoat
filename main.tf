@@ -589,5 +589,6 @@ resource "azurerm_storage_blob" "config_update_vm" {
 output "Target_URL"{
   value = "https://${azurerm_function_app.function_app_front.name}.azurewebsites.net"
 }
+/* .
     
-Change to trigger scan another change
+Change to trigger scan another change */
